@@ -1,0 +1,105 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  background-color: #18171c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  z-index: 999;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.button {
+  padding: 8px 16px;
+  margin-left: 100px;
+  margin-right: 1vh;
+  background-color: #f7bb0d;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 9vh;
+}
+
+.film-detailss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #18171c;
+}
+
+.content-containerr {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.image-containerr {
+  width: 50%;
+}
+
+.video-container {
+  width: 85%;
+  margin-left: 20px;
+}
+
+.film-imagee {
+  width: 53%;
+  height: auto;
+}
+
+.film-details-textt {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.film-details-textt.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 100px;
+  color: white;
+}
+
+.film-details-textt.description {
+  font-style: italic;
+  margin-right: 450px;
+  margin-left: 17vh;
+}
+
+.film-details-textt.details {
+  font-size: 16px;
+  display: flex;
+  margin-left: 17vh;
+}
+.details-containerr {
+  color: white;
+}
+.desc {
+  display: flex;
+  align-items: flex-start;
+}
+.reservebtn {
+  padding: 8px 16px;
+  background-color: #f7bb0d;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,255 @@
+body {
+  background-color: #18171c;
+}
+.film-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 28px;
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #958c8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+.step.active {
+  background-color: #28a82a;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 100px;
+  margin-bottom: 3vh;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #f7bb0d;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #149d16;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-right: 100px;
+  margin-top: 54px;
+}
+
+.btn-primary:disabled {
+  background-color: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+  margin-right: 100px;
+  margin-top: 54px;
+}
+
+.film-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 75%;
+}
+
+.film-image {
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-top: 94px;
+}
+
+.film-details-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.film-details-text.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.film-details-text.description {
+  font-style: italic;
+}
+
+.film-details-text.details {
+  font-size: 16px;
+}
+
+.reservation-form-container {
+  margin-top: 20px;
+  padding: 49px;
+  width: 572px;
+  height: 300px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.reservation-form-container h2 {
+  font-size: 20px;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.reservation-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form-container label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.reservation-form-container input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.reservation-form-container button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reservation-form-container button:hover {
+  background-color: #218838;
+}
+
+.session-form-container {
+  margin-top: 20px;
+  padding: 49px;
+  width: 572px;
+  height: 365px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.session-form-container h2 {
+  font-size: 20px;
+  color: #343a40;
+}
+
+.session-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.session-form-container label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  float: inline-start;
+  margin-left: 18vh;
+  margin-top: 5%;
+}
+
+.session-form-container input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-top: 5%;
+  height: 15px;
+}
+
+.session-form-container button {
+  padding: 10px 19px;
+  background-color: #525058;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+select {
+  width: 31%;
+  margin-top: 4vh;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+option {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #fff;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+/* Style du conteneur */
+.qty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5vh;
+}
+
+/* Style des boutons */
+.minus,
+.plus {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px -13px;
+}
+
+/* Style du champ de saisie numérique */
+.count {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.btn-outline {
+  border: 2px solid transparent; /* Bordure transparente par défaut */
+  transition: border-color 0.3s ease; /* Transition pour une animation fluide */
+}
